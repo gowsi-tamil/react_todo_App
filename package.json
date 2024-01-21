@@ -2,7 +2,7 @@
   "name": "react-todo",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8000",
+  "proxy": "https://nest-react-backend.onrender.com",
   "dependencies": {
     "@nestjs/mapped-types": "*",
     "@reduxjs/toolkit": "^2.0.1",
@@ -12,9 +12,9 @@
     "antd": "^4.16.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^9.1.0",
+   
     "react-scripts": "4.0.3",
-    "redux": "^5.0.1",
+   
     "redux-thunk": "^3.1.0",
     "web-vitals": "^1.1.2"
   },

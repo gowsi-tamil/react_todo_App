@@ -11,7 +11,6 @@ import {
   Input,
 } from 'antd';
 import { CloseOutlined, CheckOutlined, EditOutlined } from '@ant-design/icons';
-import { connect } from 'react-redux';
 
 const { Option } = Select;
 
