@@ -17,7 +17,7 @@ export const createTodo = (todo) => {
     body: JSON.stringify({
       title: todo.title,
       description: todo.description,
-      status: 'todo', // Assuming a new todo is always in the 'todo' status
+      status: todo.status//'todo', // Assuming a new todo is always in the 'todo' status
     }),
   }).then((res) => res.json());
 };
